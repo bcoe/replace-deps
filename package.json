@@ -1,0 +1,31 @@
+{
+  "name": "replace-deps",
+  "version": "1.0.0",
+  "description": "replace the require statements in your project, e.g., change require('foo-bar') to require('@foo/bar')",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tap ./test/replace-deps-test.js --coverage"
+  },
+  "standard": {
+    "ignore": [
+      "**/fixtures/**"
+    ]
+  },
+  "keywords": [
+    "scopes",
+    "module",
+    "migrate"
+  ],
+  "author": "Ben Coe <ben@npmjs.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "standard": "^4.1.0",
+    "tap": "^1.2.0"
+  },
+  "dependencies": {
+    "bluebird": "^2.9.27",
+    "falafel": "^1.1.0",
+    "lodash": "^3.9.3"
+  }
+}
