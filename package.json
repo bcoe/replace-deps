@@ -20,12 +20,13 @@
   "license": "ISC",
   "devDependencies": {
     "chai": "^3.0.0",
-    "standard": "^4.1.0",
+    "standard": "^4.2.1",
     "tap": "^1.2.0"
   },
   "dependencies": {
     "bluebird": "^2.9.27",
     "falafel": "^1.1.0",
+    "glob": "^5.0.10",
     "lodash": "^3.9.3"
   }
 }

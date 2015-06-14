@@ -1,6 +1,6 @@
 /* global describe, it */
-var fs = require('fs'),
-  ReplaceDeps = require('../')
+var fs = require('fs')
+var ReplaceDeps = require('../')
 
 require('chai').should()
 require('tap').mochaGlobals()

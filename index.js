@@ -1,9 +1,9 @@
-var _ = require('lodash'),
-  assert = require('assert'),
-  falafel = require('falafel'),
-  fs = require('fs'),
-  glob = require('glob'),
-  Promise = require('bluebird')
+var _ = require('lodash')
+var assert = require('assert')
+var falafel = require('falafel')
+var fs = require('fs')
+var glob = require('glob')
+var Promise = require('bluebird')
 
 function ReplaceDeps (opts) {
   opts = _.extend(this, {
